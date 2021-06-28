@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>blogging</title>
+    <link rel="stylesheet" href="assets2/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets2/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets2/css/responsive-blog-card-slider.css">
+    <link rel="stylesheet" href="assets2/css/styles.css">
+</head>
+
+<body>
+    <section class="article-clean">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+                    <div class="intro">
+                        <h1 class="text-center"><br>Java String startsWith() Method<br></h1>
+                        <p class="text-center"><span class="by">by</span> <a href="#">Aniket artani</a><span class="date"></span></p><img class="img-fluid" src="assets/img/desk.jpg">
+                    </div>
+                    <div class="text">
+                        <p><br>The Java&nbsp;<strong>startsWith()&nbsp;</strong>method is a case-sensitive method used to check whether a input string starting&nbsp;with a user-specified string or not. In addition to it we can also define the starting index of the string.<br><br></p>
+                        <p></p>
+                        <h2><br>Java startsWith() Program<br><br></h2><code><br>package codesdope;<br>import java.util.*;<br>public class codesdope <br>{<br> public static void main(String[] args) <br> {<br> String s1="Codesdope";<br> System.out.println(s1.startsWith("Code")); //case-1<br> System.out.println(s1.startsWith("ode")); //case-2<br> System.out.println(s1.startsWith("code")); //case-3<br> System.out.println(s1.startsWith("ode",1)); //case-4<br> }<br>}<br><br></code>
+                        <p><br>In the first case, we are finding whether our string s1 i.e "Codesdope" is starting with the "Code" or not using&nbsp;<strong>startsWith</strong>&nbsp;method and it returned true because "Codesdope" starting four characters are "Code".<br><br>In the second case, we are finding whether our string s1 i.e. "Codesdope" is starting with the "ode" or not using&nbsp;<strong>startsWith&nbsp;</strong>&nbsp;method and it returned false because "Codesdope" starts with characters "C" not "o".<br><br>In the third case, we are finding whether our string s1 i.e "Codesdope" is starting with the "code" or not using&nbsp;<strong>startsWith</strong>&nbsp;method and it returned false because "Codesdope" starts with upper-case character&nbsp; "C" not with lower-case.<br><br>In the last case, we are finding whether our string s1 i.e "Codesdope" is starting with the "ode" or not using<strong>&nbsp;startsWith&nbsp;</strong>method with the given index position 1 and it returned true because in the string "Codesdope"&nbsp; when we start viewing it from index position 1 then it starts with "ode".<br><br></p>
+                        <figure class="figure d-block">
+                            <figcaption class="figure-caption"></figcaption>
+                        </figure>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets2/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets2/js/responsive-blog-card-slider-1.js"></script>
+    <script src="assets2/js/responsive-blog-card-slider.js"></script>
+</body>
+
+</html>
